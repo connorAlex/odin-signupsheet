@@ -1,0 +1,38 @@
+
+body{
+    display:flex;
+    justify-content: space-between;
+    align-content: stretch; 
+    
+    
+}
+
+/* Left Side */
+.leftcol{
+    display:flex;
+    flex-direction:column;
+    background-image: url("./images/road.jpg");
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    width: 100vh;
+}
+img{
+    height: 50px;
+    width: auto;
+}
+.banner{
+    display: flex;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(1.5px);
+    justify-content: center;
+}
+
+/* Right Side */
+.rightcol{
+    display:flex;
+    flex-direction: column;
+    background-color: lightgrey;
+}
