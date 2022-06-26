@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = "stylesheet" href = "style.css">
     <title>Sign-Up Now!</title>
@@ -11,31 +10,33 @@
     <div class = "leftcol">
         <div class = "banner">
             
-            <img src = "images/motorcycle.png">
-            <p>Catch a Ride 
+            <img src = "images/odin.png" alt = "The odin project logo">
+            <p>Kuʻuna
 
         </div>
     </div>
     <div class = "rightcol">
         <div class = "pars">
-            <p>I let my humbleness turn to numbness at times letting time go by knowing I got the endurance to catch it another time
-            I work with every breath in my body cause it's the work not air that makes me feel alive...
-            <p>Honestly...Nevermind.
+            <p>This is not a real online service! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, commodi!
+
+            <p>Sign up now to get started.
+
+            <p>You know you want to.
         </div>
         <div class = "forminput">
             
-            <form action = "index.html" method = "post">
+            <form id = "signup" action = "index.html" method = "post">
                 <label>Let's Do This!</label>
                 <div class = "entry">
                     
                     <div>
                         <label>First Name</label>
-                        <input type = "text">
+                        <input required type = "text">
                     </div>
                     
                     <div>
                         <label>Last Name</label>
-                        <input type = "text">
+                        <input required type = "text">
                     </div>
                     
                 </div>
@@ -43,12 +44,12 @@
                 <div class = "entry">
                     <div>
                         <label>Email</label>
-                        <input type = "email">
+                        <input required type = "email">
                     </div>
                     
                     <div>
                         <label>Phone Number</label>
-                        <input type = "tel">
+                        <input required type = "tel">
                     </div>
                     
                 </div>
@@ -56,25 +57,24 @@
                 <div class = "entry">
                     <div>
                         <label>Password</label>
-                        <input type = "password">
+                        <input required type = "password">
                     </div>
                     
                     <div>
                         <label>Confirm Password</label>
-                        <input type = "password">
+                        <input required type = "password">
                     </div>
 
                     
                 </div>
 
                 
-
                 
-
             </form>
+
         </div>
         <div class = "account">
-            <button>Create Account</button>
+            <button form = "signup" type = "submit" name = "Create Account">Create Account</button>
             <p>Already have an account? <a href = "https://www.google.com">Log In</a>
         </div>
 
