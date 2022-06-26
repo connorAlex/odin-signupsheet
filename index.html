@@ -27,7 +27,7 @@
         </div>
         <div class = "forminput">
             
-            <form id = "signup" action = "index.html" method = "post">
+            <form onSubmit = "return passwordCheck(this)" id = "signup"  action = "index.html" method = "post">
                 <label>Let's Do This!</label>
                 <div class = "entry">
                     
@@ -59,12 +59,12 @@
                 <div class = "entry">
                     <div>
                         <label>Password</label>
-                        <input required type = "password">
+                        <input required class = "pass"type = "password">
                     </div>
                     
                     <div>
                         <label>Confirm Password</label>
-                        <input required type = "password">
+                        <input required class = "check" type = "password">
                     </div>
 
                     
